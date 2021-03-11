@@ -1,0 +1,7 @@
+syntax = "proto3"; //版本
+option java_outer_classname = "StudentPOJO"; //java的外部类名，同事也是文件名
+message Student{ //会在StudentPOJO 外部类生产一个内部Student,他是真正的 POJO对象
+  int32 id = 1; //Student 类中有名字为 id 类型为int32 1表示属性序号 不是值
+  string name = 2;
+
+}
