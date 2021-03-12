@@ -5,7 +5,7 @@ package com.study.netty.protoclotcp;
  * @description: 协议
  * @create: 2021-03-12 09:48
  **/
-public class MessgaeProtocol {
+public class MessageProtocol {
 
     private int len;
 
